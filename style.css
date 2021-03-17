@@ -52,6 +52,15 @@
     width: 60px;
     height: 60px;
     background: red;
+    transition: all 1s ease;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(.4);
 }
 
 /* Esercizio 6-7-8 */
