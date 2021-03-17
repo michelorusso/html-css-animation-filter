@@ -72,6 +72,10 @@
     transition: 1s linear;
 }
 
+.ex-8-img {
+    transition: all 1s linear;
+}
+
 /* Esercizio 6 */
 .ex-6-img:hover {
     filter: grayscale(1);
@@ -82,7 +86,10 @@
     filter: grayscale(0.5) sepia(0.5);
 }
 /* Esercizio 8 */
-
+.ex-8-img:hover {
+    border-radius: 25px;
+    filter: sepia(0.5) grayscale(0.5);
+}
 
 /* Esercizio 9 */
 .ex-9-img {
